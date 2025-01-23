@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   nitro: {
+    preset: 'vercel',
     experimental: {
       database: true
     }
